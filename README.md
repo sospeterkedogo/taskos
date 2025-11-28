@@ -1,8 +1,8 @@
-TaskOS — Professional Task Command Center
+# TaskOS - Professional Task Command Center
 
 A high-performance, distraction-free task management system built for velocity and clarity. Designed with a Swiss/Editorial aesthetic to maintain focus on what matters: Execution.
 
-🛠 Tech Stack
+## Tech Stack
 
 Framework: Next.js 14 (App Router)
 
@@ -14,7 +14,7 @@ Auth: Supabase Auth (Magic Link)
 
 Icons: Lucide React
 
-🚀 Key Features
+## Key Features
 
 Mission Control: High-level dashboard with velocity tracking and progress visualization.
 
@@ -24,7 +24,7 @@ Cloud Native: Access your tasks from any device; data syncs in real-time.
 
 Secure: Row Level Security (RLS) ensures you only see your own data.
 
-💾 Database Schema (Critical)
+## Database Schema (Critical)
 
 You must run this SQL in your Supabase SQL Editor to set up the backend:
 
@@ -60,7 +60,7 @@ create policy "Individuals can delete their own todos." on todos for
 -- Go to Database -> Replication in Supabase Dashboard and enable 'todos'
 
 
-🔧 Environment Setup
+## Environment Setup
 
 Create a .env.local file in your root:
 
@@ -68,7 +68,7 @@ NEXT_PUBLIC_SUPABASE_URL=your_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
 
 
-📦 Installation
+## Installation
 
 npm install @supabase/supabase-js date-fns lucide-react
 npm run dev
